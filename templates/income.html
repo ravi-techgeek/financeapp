@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <h1>Add Income</h1>
+
+    <form method="POST" action="">
+        {{ form.hidden_tag() }}
+        {{ form.income }}
+        {{ form.submit }}
+    </form>
+
+
+{% endblock %}
